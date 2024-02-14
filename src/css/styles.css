@@ -1,0 +1,68 @@
+:root {
+    --main-cl: #4f2ee8;
+    --text-cl: #111111;
+    --secondary-text-cl: #b4afaf;
+    --active-cl: #eac645;
+    
+  
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+  
+    background-color: #fff;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  .list {
+    margin: 0;
+    padding: 0;
+  
+    list-style: none;
+  }
+  
+  .link {
+    text-decoration: none;
+    cursor: pointer;
+    color: currentColor;
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    -webkit-clip-path: inset(100%);
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  
+  .is-hidden {
+    display: none;
+  }
+  
+  .no-scroll {
+    overflow: hidden;
+  }
+  
+  section {
+    padding-top: 40px;
+    padding-bottom: 80px;
+  }
+  
+  .container {
+    max-width: 375px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
