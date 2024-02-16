@@ -21,4 +21,4 @@ const CarsList= () =>{
    })
  } 
 
- export CarsList;
+ export default CarsList;
