@@ -1,16 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import {CarsList} from '../src/pages/CarsList';
-import './index.css';
+import { BrowserRouter } from 'react-router-dom';
 
+import { App } from 'components/App/App';
+import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Provider store={store}>
-      <PersistGate loading={null} persistor={persistor}>
-        <CarsList />
-      </PersistGate>
-    </Provider>
+    <BrowserRouter basename="/goit-react-hw-05-movies">
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
 

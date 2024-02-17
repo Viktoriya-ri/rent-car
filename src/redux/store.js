@@ -3,8 +3,7 @@ import persistReducer from 'redux-persist/es/persistReducer';
 
 import storage from 'redux-persist/lib/storage';
 import { catalogReducer } from './carsSlice';
-import { 
-    persistReducer, 
+import {    
     persistStore, 
     FLUSH, 
     PAUSE, 
