@@ -1,7 +1,7 @@
 import React from "react"
 import data from '../src/InfoCars/data.json';
 
-const CarsList= () =>{
+export const CarsList= () =>{
     return data.map((cars) => {
      return (
        <div 
@@ -21,4 +21,3 @@ const CarsList= () =>{
    })
  } 
 
- export default CarsList;

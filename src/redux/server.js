@@ -1,6 +1,6 @@
 import axios  from "axios";
 import {createAsyncThunk} from '@reduxjs/toolkit';
-import { composeWithDevTools } from "@reduxjs/toolkit/dist/devtoolsExtension";
+
 
 axios.defaults.baseURL = 'https://65cd2a62dd519126b8403437.mockapi.io';
 
